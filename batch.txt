@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM
+#SBATCH --ntasks-per-node 16
+#SBATCH -t 0:03:00
+#  echo commands to stdout
+set -x
+
+
+# mover to your appropriate directory
+
+cd /home/yifjin/omp/omp
+
+# run OpenMP program
+export OMP_NUM_THREADS=16
+./Fman
+

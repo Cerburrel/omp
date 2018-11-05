@@ -1,0 +1,7 @@
++ cd /home/yifjin/omp/omp
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ ./Fman
+ The Queue is already initializedi with 1140 intervals
+Program lasts 139099 seconds.
+The Final result is :3.33333333327425
